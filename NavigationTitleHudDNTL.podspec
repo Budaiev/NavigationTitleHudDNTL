@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NavigationTitleHudDNTL'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NavigationTitleHudDNTL.'
+  s.summary          = 'Convenient Hud for UIViewController in UINavigationController stack.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+NavigationTitleHudDNTL present a special UI inside UINavigationItem (.titleView).
+May used in cases when UIViewController presented via UINavigationController stack.
+The appointment to show user status of a loading state and keep ability for other unterruptions.
+Seems like a toast view, but in the UINavigationController area.
                        DESC
 
   s.homepage         = 'https://github.com/Budaiev/NavigationTitleHudDNTL'
@@ -28,7 +31,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Budaiev/NavigationTitleHudDNTL.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'NavigationTitleHudDNTL/Classes/**/*'
   
