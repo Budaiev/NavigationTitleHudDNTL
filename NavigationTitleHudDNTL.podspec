@@ -36,7 +36,9 @@ Seems like a toast view, but in the UINavigationController area.
   s.source_files = 'NavigationTitleHudDNTL/Classes/**/*'
   
    s.resource_bundles = {
-     'NavigationTitleHudDNTL' => ['NavigationTitleHudDNTL/XIB_FILES/NvcTitleAndHud.xib']
+     'NavigationTitleHudDNTL' => 'NavigationTitleHudDNTL/Assets/*.*'
+#     ['XIB_FILES/NvcTitleAndHud.xib']
+#     ['NavigationTitleHudDNTL/XIB_FILES/NvcTitleAndHud.xib']
 #     ['NavigationTitleHudDNTL/Assets/*.png']
    }
 

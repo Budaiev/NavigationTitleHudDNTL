@@ -34,10 +34,14 @@
 
 - (void)testFromNib:(NSString *)text {
     
-    NSBundle *bundle = [NSBundle bundleForClass:self.classForCoder];
+    NSBundle *bundle = [NSBundle mainBundle];
+                        //pathForResource:<#(nullable NSString *)#> ofType: inDirectory:];
+    //                        bundleForClass:self.classForCoder];
     //UINib *nib = [[bundle loadNibNamed:@"NvcTitleAndHud" owner:nil options:nil] firstObject];
     
-    NvcTitleAndHud * finish = [[bundle loadNibNamed:@"NvcTitleAndHud" owner:nil options:nil] firstObject];
+    NvcTitleAndHud * finish = [[bundle loadNibNamed:@"NvcTitleAndHud"
+                                              owner:nil
+                                            options:nil] firstObject];
 //    [[NSBundle mainBundle] loadNibNamed:@"NvcTitleAndHud"
 //                                                            owner:self
 //                                                          options:nil].firstObject;
