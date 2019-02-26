@@ -35,9 +35,10 @@ Seems like a toast view, but in the UINavigationController area.
 
   s.source_files = 'NavigationTitleHudDNTL/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'NavigationTitleHudDNTL' => ['NavigationTitleHudDNTL/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'NavigationTitleHudDNTL' => ['NavigationTitleHudDNTL/XIB_FILES/NvcTitleAndHud.xib']
+#     ['NavigationTitleHudDNTL/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

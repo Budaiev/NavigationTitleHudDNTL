@@ -1,8 +1,8 @@
 {
   "name": "NavigationTitleHudDNTL",
-  "version": "0.1.0",
-  "summary": "A short description of NavigationTitleHudDNTL.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.1",
+  "summary": "Convenient Hud for UIViewController in UINavigationController stack.",
+  "description": "NavigationTitleHudDNTL present a special UI inside UINavigationItem (.titleView).\nMay used in cases when UIViewController presented via UINavigationController stack.\nThe appointment to show user status of a loading state and keep ability for other unterruptions.\nSeems like a toast view, but in the UINavigationController area.",
   "homepage": "https://github.com/Budaiev/NavigationTitleHudDNTL",
   "license": {
     "type": "MIT",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/Budaiev/NavigationTitleHudDNTL.git",
-    "tag": "0.1.0"
+    "tag": "1.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "NavigationTitleHudDNTL/Classes/**/*"
+  "source_files": "NavigationTitleHudDNTL/Classes/**/*",
+  "resource_bundles": {
+    "NavigationTitleHudDNTL": [
+      "NavigationTitleHudDNTL/Assets/XIB_FILES/NvcTitleAndHud.xib"
+    ]
+  }
 }

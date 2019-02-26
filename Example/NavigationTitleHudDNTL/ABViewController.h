@@ -7,7 +7,11 @@
 //
 
 @import UIKit;
+//#import <NavigationTitleHudDNTL/BaseVC.h>
+//#import <NavigationTitleHudDNTL/NvcHudAble.h>
+#import "BaseVC.h"
+#import "NvcHudAble.h"
 
-@interface ABViewController : UIViewController
+@interface ABViewController : BaseVC
 
 @end

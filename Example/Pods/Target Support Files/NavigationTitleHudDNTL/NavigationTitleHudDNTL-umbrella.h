@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "BaseVC.h"
+#import "NvcHudAble.h"
+#import "NvcTitleAndHud.h"
+#import "UIViewController+NvcHud.h"
 
 FOUNDATION_EXPORT double NavigationTitleHudDNTLVersionNumber;
 FOUNDATION_EXPORT const unsigned char NavigationTitleHudDNTLVersionString[];

@@ -34,9 +34,13 @@
 
 - (void)testFromNib:(NSString *)text {
     
-    NvcTitleAndHud * finish = [[NSBundle mainBundle] loadNibNamed:@"NvcTitleAndHud"
-                                                            owner:self
-                                                          options:nil].firstObject;
+    NSBundle *bundle = [NSBundle bundleForClass:self.classForCoder];
+    //UINib *nib = [[bundle loadNibNamed:@"NvcTitleAndHud" owner:nil options:nil] firstObject];
+    
+    NvcTitleAndHud * finish = [[bundle loadNibNamed:@"NvcTitleAndHud" owner:nil options:nil] firstObject];
+//    [[NSBundle mainBundle] loadNibNamed:@"NvcTitleAndHud"
+//                                                            owner:self
+//                                                          options:nil].firstObject;
     
     finish.title.text = text;
     [finish.hud startAnimating];
