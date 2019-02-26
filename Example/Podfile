@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'NavigationTitleHudDNTL_Example' do
+  pod 'NavigationTitleHudDNTL', :path => '../'
+
+  target 'NavigationTitleHudDNTL_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
