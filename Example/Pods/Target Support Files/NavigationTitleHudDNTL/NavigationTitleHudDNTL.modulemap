@@ -1,0 +1,6 @@
+framework module NavigationTitleHudDNTL {
+  umbrella header "NavigationTitleHudDNTL-umbrella.h"
+
+  export *
+  module * { export * }
+}

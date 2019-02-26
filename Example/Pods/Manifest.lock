@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - NavigationTitleHudDNTL (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - NavigationTitleHudDNTL (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  NavigationTitleHudDNTL:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  NavigationTitleHudDNTL: f7eb236b55e7bad5967c64fbc24174c42494291d
+
+PODFILE CHECKSUM: 5a4636ab1a4c541585bd520b5005831d03623017
+
+COCOAPODS: 1.5.3
